@@ -14,9 +14,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = ">= 1.3.6"
   s.rubyforge_project = "github-trello"
 
-  s.add_runtime_dependency "vegas", "~>0.1.8"
   s.add_runtime_dependency "sinatra", "~>1.3.2"
 
   s.files        = Dir.glob("lib/**/*") + %w[MIT-LICENSE README.md Rakefile]
-  s.executables  = ["trello-web"]
 end

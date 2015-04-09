@@ -5,7 +5,7 @@ module GithubTrello
   class HTTP
     def initialize(token, api_key)
 	  @token, @api_key = token, api_key
-      @uri = URI("https://api.trello.com")
+        @uri = URI("https://api.trello.com")
     end
 
     def get_card(board_id, card_id)
